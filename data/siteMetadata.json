@@ -5,11 +5,10 @@
   "language": "en-us",
   "locale": "en-US",
   "theme": "system",
-  "siteUrl": "https://arism.org",
+  "siteUrl": "https://arism.vercel.app",
   "siteRepo": "https://github.com/ArismLab/arism-homepage",
   "siteLogo": "/static/logo.png",
   "siteBanner": "/static/banner.png",
-  "email": "support@arism.org",
   "externalLinks": [
     {
       "name": "Github",
@@ -18,6 +17,10 @@
     {
       "name": "Twitter",
       "url": "https://twitter.com/ArismLab"
+    },
+    {
+      "name": "Email",
+      "url": "mailto:support@arism.org"
     }
   ],
   "internalLinks": [
