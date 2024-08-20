@@ -11,24 +11,20 @@
     "siteBanner": "/static/banner.png",
     "externalLinks": [
         {
-            "name": "Blog",
-            "url": "https://blog.arism.org"
-        },
-        {
-            "name": "Wallet",
-            "url": "https://app.arism.org"
-        },
-        {
-            "name": "Github",
-            "url": "https://github.com/ArismLab/"
-        },
-        {
-            "name": "Twitter",
+            "title": "Twitter",
             "url": "https://twitter.com/ArismLab"
         },
         {
-            "name": "Email",
-            "url": "mailto:support@arism.org"
+            "title": "Github",
+            "url": "https://github.com/ArismLab/"
+        },
+        {
+            "title": "Discord",
+            "url": "https://discord.gg/ArismLab"
+        },
+        {
+            "title": "Telegram",
+            "url": "https://t.me/ArismLab"
         }
     ],
     "internalLinks": [
@@ -36,10 +32,35 @@
             "title": "Homepage",
             "path": "/",
             "description": "A Distributed Key and Identifier Management Protocol powered by Zero Knowledge."
+        },
+        {
+            "title": "Game",
+            "path": "/",
+            "description": "A Distributed Key and Identifier Management Protocol powered by Zero Knowledge."
+        },
+        {
+            "title": "Wallet",
+            "path": "/",
+            "description": "A Distributed Key and Identifier Management Protocol powered by Zero Knowledge."
+        },
+        {
+            "title": "About",
+            "path": "/",
+            "description": "A Distributed Key and Identifier Management Protocol powered by Zero Knowledge."
+        },
+        {
+            "title": "Rewards",
+            "path": "/",
+            "description": "A Distributed Key and Identifier Management Protocol powered by Zero Knowledge."
+        },
+        {
+            "title": "Contact",
+            "path": "/",
+            "description": "A Distributed Key and Identifier Management Protocol powered by Zero Knowledge."
         }
     ],
     "analytics": {
-        "umamiWebsiteId": "8cdb28da-322d-4adf-b081-27e579f84252",
-        "googleAnalyticsId": "G-KYY35T59NC"
+        "umamiWebsiteId": "b018c634-3134-4965-ac2f-8b3a89c32e40",
+        "googleAnalyticsId": "G-V2EES3R603"
     }
 }

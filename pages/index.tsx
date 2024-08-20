@@ -1,21 +1,17 @@
 import FoundersMain from '@components/FoundersMain'
-import HighlightsMain from '@components/HighlightsMain'
 import { HomeSEO } from '@components/SEO'
-import WalletMain from '@components/WalletMain'
+import LandingMain from '@components/LandingMain'
+import AboutUsMain from '@components/AboutUsMain'
 
 const Home = (): JSX.Element => {
-  return (
-    <>
-      <HomeSEO />
-      <div>
-        <WalletMain />
-
-        <HighlightsMain />
-
-        <FoundersMain />
-      </div>
-    </>
-  )
+	return (
+		<>
+			<HomeSEO />
+			<LandingMain />
+			<AboutUsMain />
+			<FoundersMain />
+		</>
+	)
 }
 
 export default Home
