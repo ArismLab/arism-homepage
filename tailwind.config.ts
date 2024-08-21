@@ -60,6 +60,9 @@ const config: Config = {
                 marquee: 'marquee var(--duration) linear infinite',
                 'marquee-vertical':
                     'marquee-vertical var(--duration) linear infinite',
+                'border-beam':
+                    'border-beam calc(var(--duration)*1s) infinite linear',
+                spotlight: 'spotlight 2s ease .75s 1 forwards',
             },
             keyframes: {
                 marquee: {
@@ -69,6 +72,21 @@ const config: Config = {
                 'marquee-vertical': {
                     from: { transform: 'translateY(0)' },
                     to: { transform: 'translateY(calc(-100% - var(--gap)))' },
+                },
+                'border-beam': {
+                    '100%': {
+                        'offset-distance': '100%',
+                    },
+                },
+                spotlight: {
+                    '0%': {
+                        opacity: '0',
+                        transform: 'translate(-72%, -62%) scale(0.5)',
+                    },
+                    '100%': {
+                        opacity: '1',
+                        transform: 'translate(-50%,-40%) scale(1)',
+                    },
                 },
             },
         },

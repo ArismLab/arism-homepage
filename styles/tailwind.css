@@ -40,6 +40,9 @@
     --tertiary-950: rgb(67 20 7);
 }
 
+html {
+    max-width: 100%;
+}
 @layer components {
     .bg-global {
         @apply bg-opacity-5 bg-[radial-gradient(ellipse_at_top_left,_var(--tw-gradient-stops))] from-tertiary-50 via-primary-50 to-secondary-50;

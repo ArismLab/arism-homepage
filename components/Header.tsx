@@ -6,7 +6,10 @@ import * as Icons from 'react-icons/fa'
 
 const Header = () => {
 	return (
-		<div className="flex w-screen items-center justify-between px-20 py-10">
+		<div
+			className="flex w-full items-center justify-between px-20 py-10"
+			id="home"
+		>
 			<Link className="group " href="/">
 				<div className="flex place-items-center items-center gap-5">
 					<Image
@@ -30,7 +33,7 @@ const Header = () => {
 				))}
 			</div>
 			<div className="flex gap-10">
-				{siteMetadata.externalLinks.map((link) => {
+				{siteMetadata.socialLinks.map((link) => {
 					const Component = Icons[`Fa${link.title}`]
 					return (
 						<a key={link.url} href={link.url}>

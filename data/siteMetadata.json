@@ -9,7 +9,7 @@
     "siteRepo": "https://github.com/ArismLab/arism-homepage",
     "siteLogo": "/static/logo.png",
     "siteBanner": "/static/banner.png",
-    "externalLinks": [
+    "socialLinks": [
         {
             "title": "Twitter",
             "url": "https://twitter.com/ArismLab"
@@ -21,41 +21,51 @@
         {
             "title": "Discord",
             "url": "https://discord.gg/ArismLab"
+        }
+    ],
+    "footerLinks": [
+        {
+            "title": "Contact Us",
+            "url": "mailto:admin@arism.org"
         },
         {
-            "title": "Telegram",
-            "url": "https://t.me/ArismLab"
+            "title": "Privacy Policy",
+            "url": "#"
+        },
+        {
+            "title": "Terms & Conditions",
+            "url": "#"
         }
     ],
     "internalLinks": [
         {
-            "title": "Homepage",
-            "path": "/",
+            "title": "Home",
+            "path": "#home",
             "description": "A Distributed Key and Identifier Management Protocol powered by Zero Knowledge."
         },
         {
-            "title": "Game",
-            "path": "/",
+            "title": "Games",
+            "path": "#games",
             "description": "A Distributed Key and Identifier Management Protocol powered by Zero Knowledge."
         },
         {
             "title": "Wallet",
-            "path": "/",
+            "path": "#wallet",
+            "description": "A Distributed Key and Identifier Management Protocol powered by Zero Knowledge."
+        },
+        {
+            "title": "News",
+            "path": "#news",
             "description": "A Distributed Key and Identifier Management Protocol powered by Zero Knowledge."
         },
         {
             "title": "About",
-            "path": "/",
+            "path": "#about",
             "description": "A Distributed Key and Identifier Management Protocol powered by Zero Knowledge."
         },
         {
-            "title": "Rewards",
-            "path": "/",
-            "description": "A Distributed Key and Identifier Management Protocol powered by Zero Knowledge."
-        },
-        {
-            "title": "Contact",
-            "path": "/",
+            "title": "Members",
+            "path": "#members",
             "description": "A Distributed Key and Identifier Management Protocol powered by Zero Knowledge."
         }
     ],
